@@ -1,0 +1,29 @@
+# === Core LangChain + LLM Stack ===
+
+openai==1.40.0
+google-generativeai   # Gemini API
+
+# === Vector Search + Embeddings ===
+faiss-cpu==1.8.0
+sentence-transformers==3.0.1
+tqdm==4.66.4
+numpy==1.26.4
+
+
+# === Tokenization + Utils ===
+
+python-dotenv==1.0.1
+
+# === Parsing + Data Extraction ===
+
+requests==2.32.3
+
+# === API Framework ===
+fastapi==0.111.0
+uvicorn==0.30.1
+
+# === GitHub Repo Cloning ===
+gitpython==3.1.43
+
+# === Optional / System Helpers ===
+# argparse --> REMOVED (built-in)
